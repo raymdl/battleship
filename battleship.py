@@ -72,7 +72,7 @@ def printboard():
     print("-------------------------------- ")
     #print(enemyships) #debug
     #print(enemymoves) #debug
-    #print(yourships) #debug
+    #ddships) #debug
     #print(yourmoves) #debug
     #print(possiblemoves) #debug
     #print(enemybrain) #debug
@@ -182,7 +182,6 @@ while True:
                         else:
                             y = int(yourmove[1])
                         if enemyboard[y][x] == ".":
-                            print(yourmove)
                             break
             yourmove = input("Invalid position. Attack? ").strip().upper()
 
