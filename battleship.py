@@ -70,12 +70,12 @@ def printboard():
     print(message1.center(33))
     print(message2.center(33))
     print("-------------------------------- ")
-    print(enemyships) #debug
-    print(enemymoves) #debug
-    print(yourships) #debug
-    print(yourmoves) #debug
-    print(possiblemoves) #debug
-    print(enemybrain) #debug
+    #print(enemyships) #debug
+    #print(enemymoves) #debug
+    #print(yourships) #debug
+    #print(yourmoves) #debug
+    #print(possiblemoves) #debug
+    #print(enemybrain) #debug
 
 
 #valid board positions
